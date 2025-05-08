@@ -1,0 +1,772 @@
+/* CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Sans-serif;
+
+}
+.ACP{
+  cursor: pointer;
+}
+.main{
+  background-image: url("../public/main.jpeg");
+background-position: center bottom;
+background-size: cover;
+filter: brightness(0.5);}
+
+.nav{
+  min-height: 130px;
+
+}
+
+
+.hamNav{
+  width: 100%;
+  background-color: #262626;
+  /* height: 400px; */
+  z-index: 100;
+  top: 18%;
+  position: absolute;
+}
+.ham-links{
+  display: flex;
+  flex-direction: column;
+}
+.hamLink{
+  width: 100%;
+  border-bottom: 1px solid #e2bd47;
+  padding: 20px 0px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ham{
+  display: none;
+}
+.bar{
+  height: 2px;
+  width: 25px;
+  margin: 5px 0px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.MNbar{
+  height: 2px;
+  width: 25px;
+  margin: 5px 0px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.barTR1{
+  transform: translateY(-1px) rotate(45deg);
+}
+.barTR2{
+  transform: translateY(-8px) rotate(-45deg);
+}
+.AVH{
+  visibility: hidden;
+}
+.borNone{
+  border-bottom: none !important;
+}
+.MainNav{
+  min-height: 130px;
+  color: #262626;
+
+}
+/* Hover Animation */
+.navLink {
+  display: inline-block;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  margin: 0px 30px;
+}
+
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 0.05em;
+  bottom: 0;
+  left: 0;
+  
+  background: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.navLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.MainnavLink {
+  display: inline-block;
+  position: relative;
+  color: #262626;
+  text-decoration: none;
+  margin: 0px 30px;
+}
+
+
+.MainnavLink::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  border-radius: 5px;
+  height: 0.05em;
+  bottom: 0;
+  left: 0;
+  
+  background: #262626;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.MainnavLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.cardPr{
+  flex-flow: row wrap;
+}
+.cardImg{
+  background-image: url("../public/main.jpeg");
+  background-position: center center;
+background-size: cover;
+width: 444px;
+
+height: 299px;
+margin: 10px 10px;
+cursor: pointer;
+}
+.cardImg:hover{
+filter: brightness(0.5);
+}
+.ABCardImg{
+  
+  background-image: url("../public/main.jpeg");
+  background-position: center center;
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+
+}
+/* Modal */
+
+.modalParent{
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ background-color:  rgba(16, 16, 16, 0.65);
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.modal{
+width: 100%;
+height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    animation: fadeIn 1s; 
+
+
+  
+}
+.modalImg{
+  width: 800px;
+  height: 600px;
+  /* background-image: url("../public/main.jpg"); */
+   background-size: cover; 
+   background-position: center center;
+  margin: 0px 30px;
+
+}
+.modalClose{
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+.CMBTnPr{
+  display: flex;
+      justify-content: flex-end;
+}
+
+/* LOGO */
+.maLo{
+  height: 105px;
+  width: 105px;
+  background-image: url("../public/Sankashtilogo1.png"); 
+  background-position: center center;
+background-size: cover;
+}
+/* .subLogo{
+  height: 45px;
+  width: 55px;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+.fooTer{
+  padding: 40px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Line{
+  width: 70px;
+  height: 3px;
+  background-color: #e2bd47;
+}
+.demo{
+  width: 100%;
+height: 400px;
+  background-image: url("../public/maps.png");
+margin-top: 20px;
+border-bottom: 5px solid #e2bd47;
+background-size: cover;
+background-position: center center;
+
+}
+.Contact-ig{
+  background-image: url("../public/insta_icon.png");
+  height: 34px;
+  width: 34px;
+  background-size: cover;
+background-position: center center;
+}
+
+.Contact-fb{
+  background-image: url("../public/FB_icon.png");
+  height: 34px;
+  width: 34px;
+  background-size: cover;
+background-position: center center;
+}
+
+.Contact-wht{
+  background-image: url("../public/Whatsapp_icon.png");
+  height: 34px;
+  width: 34px;
+  background-size: cover;
+background-position: center center;
+}
+/* Z-Index */
+
+.AZI-1{
+  z-index: 1;
+}
+
+/* Height & Width */
+
+.width-100 {
+  width: 100%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-50{
+  width: 50%;
+}
+.width-45{
+  width: 45%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-90 {
+  width: 90%;
+}
+
+.height-100 {
+  height: 100%;
+}
+.height-100vh{
+  height: 100vh;
+}
+
+/* Margin */
+.AM0{
+  margin: 0 !important;
+}
+.AM5 {
+  margin: 5px;
+}
+
+.AM10 {
+  margin: 10px;
+}
+
+.AM15 {
+  margin: 15px;
+}
+
+.AM20 {
+  margin: 20px;
+}
+
+.AM25 {
+  margin: 25px;
+}
+
+.AM50 {
+  margin: 50px;
+}
+
+
+/* Margin Y */
+.AMY10{
+  margin: 10px 0px;
+
+}
+
+.AMY15{
+  margin: 15px 0px;
+  
+}
+
+.AMY20{
+  margin: 20px 0px;
+  
+}
+
+.AMY25{
+  margin: 25px 0px;
+  
+}
+.AMY50{
+  margin: 50px 0px;
+  
+}
+
+.AMY75{
+  margin: 75px 0px;
+  
+}
+/* Margin X */
+.AMX10{
+  margin: 0px 10px ;
+}
+.AMX20{
+  margin: 0px 20px ;
+}
+
+.AMX30{
+  margin: 0px 30px ;
+}
+.AMX150{
+margin: 0px 150px;
+}
+/* Margin R */
+
+.AMR15{
+  margin-right: 15px;
+}
+.AMR20{
+  margin-right: 20px;
+}
+.AMR30{
+  margin-right: 30px;
+}
+/* Margin L */
+.AML20{
+  margin-left: 20px;
+}
+.AML25{
+  margin-left: 25px;
+}
+.AML30{
+  margin-left: 30px;
+}
+/* Margin T */
+.AMT35{
+  margin-top: 35px;
+}
+/* Margin B */
+.AMB30{
+  margin-bottom: 30px;
+}
+/* Padding */
+.AP5 {
+  padding: 5px;
+}
+
+.AP10 {
+  padding: 10px;
+}
+
+.AP15 {
+  padding: 15px;
+}
+
+.AP20 {
+  padding: 20px;
+}
+
+.AP25 {
+  padding: 25px;
+}
+
+.AP50 {
+  padding: 50px;
+}
+.APB50{
+  padding-bottom: 50px;
+}
+.APY50{
+  padding: 50px 0px;
+}
+.APY75{
+  padding: 75px 0px;
+}
+/* Font size */
+
+.AFS10 {
+  font-size: 10px;
+}
+
+.AFS15 {
+  font-size: 15px;
+}
+
+.AFS20 {
+  font-size: 20px;
+}
+
+.AFS25 {
+  font-size: 25px;
+}
+.AFS30 {
+  font-size: 30px;
+}
+
+.AFS35 {
+  font-size: 35px;
+}
+
+.AFS40 {
+  font-size: 40px;
+}
+
+.AFS105{
+  font-family: "Poppins", Sans-serif;
+  font-size: 105px;
+  font-weight: 600;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+/* Color */
+.AC-W{
+  color: white;
+}
+.AC-FFFFFF{
+  color: #FFFFFF;
+}
+.AC-e2bd47 {
+  color: #e2bd47;
+}
+.AC-9da8aa{
+  color: #9da8aa;
+}
+.AC-B {
+  color: black;
+}
+
+.AC-262626 {
+  color: #262626;
+}
+.AC-555555{
+  color: #555555;
+}
+
+/* Background Color */
+
+.ABC-262626 {
+  background-color: #262626;
+}
+.ABC-W {
+  background-color: white;
+}
+
+/* Display */
+.ADF {
+  display: flex;
+}
+.ADN{
+  display: none;
+}
+/* Display flex Properties */
+
+.ADF-JC {
+  justify-content: center;
+}
+.ADF-JSB {
+  justify-content: space-between;
+}
+
+.ADF-AC {
+  align-items: center;
+}
+
+.ADF-FDR {
+  flex-direction: row;
+}
+
+.ADF-FDC {
+  flex-direction: column;
+}
+
+.ATA-C {
+  text-align: center;
+}
+
+
+/* Position */
+.APA {
+  position: absolute;
+}
+
+/* Top */
+.AT2{
+  top: 2%;
+}
+
+.AT50 {
+  top: 50%;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+  
+  .mainTxt{
+    font-size: 55px;
+    line-height: 70px;
+  }
+  .RFS30{
+    font-size: 30px;
+  }
+  .Rnav{
+    width: 100%;
+  justify-content: space-around;
+  }
+  .maLo{
+    width: 65px;
+    height: 65px;
+  }
+  .ABCardImg{
+    height: 350px;
+    /* width: 387px; */
+  }
+  .RFS25{
+    font-size: 25px;
+  }
+  .Rwidth-100{
+    width: 100%;
+  }
+  .RMY25{
+    margin: 25px 0px;
+  }
+  .RMY15{
+    margin: 15px 0px;
+  }
+  .modalImg{
+    width: 700px;
+  height: 500px;
+  }
+  .cardImg{
+    width: 285px;
+    height: 306px;
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  
+  .cardImg{
+    width: 555px;
+    height: 306px;
+    margin: 15px 0px;
+  }
+  .cardPr{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .ABCardImg{
+    height: 300px;
+    /* width: 387px; */
+  }
+  .RDF-FDC{
+    flex-direction: column;
+
+  }
+  .RDF-JC{
+    justify-content: center;
+    
+  }
+  .RDF-AC{
+    align-items: center;
+    
+  }
+  .RMB30{
+    margin-bottom: 30px;
+  }
+
+  .RDF-AC{
+    align-items: center;
+    
+  }
+  .RMY15{
+    margin: 15px 0px;
+    
+  }
+  .modalImg{
+    width: 500px;
+  height: 500px;
+  }
+
+}
+
+@media screen and (max-width: 720px) {
+  .Nav-Links{
+    display: none;
+  }
+  .MainNav-Links{
+display: none;
+  }
+  .ham{
+    display: block;
+  }
+  .mainTxt{
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .cardPr{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .cardImg{
+    width: 405px;
+    height: 256px;
+    margin: 10px 0px;
+  }
+  .RMX25{
+    margin: 0px 25px;
+  }
+  .RMY25{
+    margin: 25px 0px;
+  }
+  .RPB25{
+padding-bottom: 25px;
+  }
+  .RFS20{
+    font-size: 20px;
+  }
+  .ABOUTC{
+    display: flex;
+    flex-direction: column;
+  }
+  .ABCardImg{
+    height: 300px;
+    width: 100%;
+  }
+  .modalImg{
+    width: 400px;
+  height: 400px;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+.fooTerCh{
+  flex-direction: column;
+}
+.fooTer{
+  padding: 20px 0px;
+}
+
+  
+
+}
+
+
+@media screen and (max-width: 550px) {
+  .modalImg{
+    width: 100%;
+  height: 300px;
+  margin: 0;
+  }
+  .PreviousBtn{
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 2%;
+  }
+  .nextBtn{
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    right: 2%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mainTxt{
+    font-size: 25px;
+    line-height: 40px;
+  }
+  
+  .cardImg{
+    width: 305px;
+    height: 166px;
+    margin: 10px 0px;
+  }
+  .RFS15{
+font-size: 15px;
+  }
+  
+
+}
+
+@media screen and (max-width: 320px) {
+  .mainTxt{
+    font-size: 25px;
+    line-height: 40px;
+  }
+  
+  .cardImg{
+    width: 255px;
+    height: 136px;
+    margin: 10px 0px;
+  }
+.ABCardImg{
+  width: 255px;
+  height: 200px;
+}
+
+}
