@@ -217,7 +217,7 @@ height: 100%;
 .maLo{
   height: 105px;
   width: 105px;
-  background-image: url("../public/Sankashtilogo1.png"); 
+  background-image: url("/Sankashtilogo1.png"); 
   background-position: center center;
 background-size: cover;
 }
