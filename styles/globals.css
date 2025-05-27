@@ -217,7 +217,7 @@ height: 100%;
 .maLo{
   height: 105px;
   width: 105px;
-  background-image: url("/Sankashtilogo1.png"); 
+  background-image: url("/SankashtiLogo1.png"); 
   background-position: center center;
 background-size: cover;
 }
@@ -574,7 +574,6 @@ margin: 0px 150px;
   .maLo{
     width: 65px;
     height: 65px;
-    background-image: url("/Sankashtilogo1.png"); 
   }
   .ABCardImg{
     height: 350px;
