@@ -8,7 +8,7 @@ const Contact = () => {
     <MainNav/>
 <div className="ADF ADF-JC ADF-FDC ADF-AC">
 <div className='demo'>
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4513.003683274329!2d76.29966833836144!3d22.766547410235468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962d782e4b4eaf3%3A0x3c0c4a1c9ad0f515!2sChandra%20niwas!5e0!3m2!1sen!2sin!4v1749884724491!5m2!1sen!2sin" width="100%" height="400"  allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <div className='width-70'>
   <div className="width-50 Rwidth-100">
