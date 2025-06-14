@@ -32,11 +32,11 @@ export default function Home() {
     // 2nd Modal
 
     const goToNextImage2 = () => {
-      setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+      setCurrentImage((prevImage) => (prevImage + 1) % images2.length);
     };
   
     const goToPrevImage2 = () => {
-      setCurrentImage((prevImage) => (prevImage - 1 + images.length) % images.length);
+      setCurrentImage((prevImage) => (prevImage - 1 + images2.length) % images.length);
     };
   
 
