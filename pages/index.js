@@ -24,8 +24,8 @@ export default function Home() {
       "/CN24.jpeg",
       "/CN25.png",
       "/CN21.png",
-      "/CN22.jpeg",
-      "/CN23.png"
+      "/CN22.png",
+      "/CN23.jpg"
 
 
     ];
