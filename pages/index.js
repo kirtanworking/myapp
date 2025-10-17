@@ -23,8 +23,8 @@ export default function Home() {
       "/main.jpeg",
       "/CN24.jpeg",
       "/CN25.png",
-      "/CN21.png",
-      "/CN22.png",
+      "/CN21.jpg",
+      "/CN22.jpg",
       "/CN23.jpg"
 
 
