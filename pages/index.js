@@ -21,11 +21,11 @@ export default function Home() {
     };
     const images = [
       "/CN25.png",
-      "/CN24.jpeg",
+      "/03.jpg",
       "/01.jpg",
       "/02.jpg",
       "/CN22.jpg",
-      "/03.jpg"
+      "/CN24.jpeg"
 
 
     ];
