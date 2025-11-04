@@ -26,7 +26,7 @@ const About = () => {
 
 <div className='width-45 Rwidth-100 RMY25'>
 
-<h2 className='AFS35 RFS25 RFS20'>Always Strive For Better  Work. Never Stop Learning.
+<h2 className='AFS35 RFS25 RFS20'>Our vision and mission
 </h2>
 <div className="Line AMY25 RMY15"></div>
 <p>Trusted Name in Real Estate
