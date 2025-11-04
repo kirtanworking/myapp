@@ -95,7 +95,7 @@ export default function Home() {
 
         <div name="Container-2" className="width-100 height-110 ABC-262626">
         
-    <video width="100%" height="100%" controls  poster="/main.jpeg" >
+    <video width="100%" height="100%" controls  poster="/CN25.png" >
     
       <source src="/web_video03.mp4" type="video/mp4" />
       <track
