@@ -39,7 +39,7 @@ From site visit to possession, we’re with you every step of the way.
 
 </p>
 </div>
-<div className="ABCardImg "></div>
+<div className="ABCardImg2 "></div>
 </div>
 
 
