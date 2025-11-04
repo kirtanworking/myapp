@@ -19,11 +19,11 @@ const Contact = () => {
   </div>
 
   <div className='ADF AMY25'>
-    <Link href="/" className="AMR15" name="iglogo">
+    <Link href="https://www.instagram.com/sankashtiinfraindore?igsh=MXVwMXFmNnpmeTN2Yw%3D%3D" className="AMR15" name="iglogo">
     <div className="Contact-ig"></div>
 
     </Link>
-    <Link href="/" className="AMR15">
+    <Link href="https://www.facebook.com/people/Sankashti-Infra-Solutions/61574094976468/?rdid=spr8p6FAFWWNXSC3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16LgUDHyzr%2F" className="AMR15">
     <div className='Contact-fb'></div>
 
 
