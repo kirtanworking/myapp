@@ -20,12 +20,12 @@ export default function Home() {
       setCurrentImage(index);
     };
     const images = [
-      "/main.jpeg",
+      "/01.jpg",
       "/CN24.jpeg",
       "/CN25.png",
-      "/CN21.jpg",
+      "/02.jpg",
       "/CN22.jpg",
-      "/CN23.jpg"
+      "/03.jpg"
 
 
     ];
