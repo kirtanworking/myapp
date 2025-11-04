@@ -29,7 +29,7 @@ const Contact = () => {
 
     </Link>
 
-    <Link href="/" className="AMR15">
+    <Link href="https://wa.me/+919407016666" className="AMR15">
    <div className="Contact-wht"></div>
     </Link>
 
