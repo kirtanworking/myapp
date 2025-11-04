@@ -156,13 +156,24 @@ filter: brightness(0.5);
 }
 .ABCardImg{
   
-  background-image: url("../public/main.jpeg");
+  background-image: url("../public/04.jpg");
   background-position: center center;
   background-size: cover;
   width: 50%;
   height: 450px;
 
 }
+
+.ABCardImg2{
+  
+  background-image: url("../public/Capture07.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+
+}
+
 /* Modal */
 
 .modalParent{
